@@ -1,13 +1,13 @@
 {
-  "name": "angular2-notifications",
-  "version": "0.1.53",
-  "description": "An easy to use notification library for angular 2",
+  "name": "angular2-toasts",
+  "version": "0.0.1",
+  "description": "An easy to use toasts library for angular 2, forked from https://github.com/flauc/angular2-notifications",
   "scripts": {
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flauc/angular2-notifications.git"
+    "url": "git+https://github.com/cschuhmacher1995/angular2-toasts.git"
   },
   "keywords": [
     "Angular",
@@ -17,15 +17,12 @@
     "Notification",
     "Toast"
   ],
-  "author": "filip.lauc93@gmail.com",
+  "author": "cschuhmacher1995@gmail.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/flauc/angular2-notifications/issues"
-  },
-  "homepage": "https://github.com/flauc/angular2-notifications",
+  "homepage": "https://github.com/cschuhmacher1995/angular2-toasts",
   "peerDependencies": {
     "@angular/core": "^2.0.0-rc.1",
-    "rxjs": "5.0.0-beta.6"
+    "rxjs": "^5.0.0-beta.6"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
