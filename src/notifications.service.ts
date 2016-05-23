@@ -8,11 +8,21 @@ export class NotificationsService {
     getChangeEmitter() { return this.emiter }
 
     //// Access methods
-    success(title: string, content: string, override?: any) { this.set({title: title, content: content, type: "success", override: override}, true) }
-    error(title: string, content: string, override?: any) { this.set({title: title, content: content, type: "error", override: override}, true) }
-    alert(title: string, content: string, override?: any) { this.set({title: title, content: content, type: "alert", override: override}, true) }
-    info(title: string, content: string, override?: any) { this.set({title: title, content: content, type: "info", override: override}, true) }
-    bare(title: string, content: string, override?: any) { this.set({title: title, content: content, type: "bare", override: override}, true) }
+    success(title: string, content: string, override?: any): void {
+        this.set({title: title, content: content, type: "success", override: override}, true)
+    }
+    error(title: string, content: string, override?: any): void {
+        this.set({title: title, content: content, type: "error", override: override}, true)
+    }
+    alert(title: string, content: string, override?: any): void {
+        this.set({title: title, content: content, type: "alert", override: override}, true)
+    }
+    info(title: string, content: string, override?: any): void {
+        this.set({title: title, content: content, type: "info", override: override}, true)
+    }
+    bare(title: string, content: string, override?: any): void {
+        this.set({title: title, content: content, type: "bare", override: override}, true)
+    }
 
     // With type method
     create(title: string, content: string, type: string, override?: any) { this.set({title: title, content: content, type: type, override: override}, true) }
